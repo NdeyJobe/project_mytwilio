@@ -8,8 +8,8 @@ auth_token  = "6930b64e1e47ad4551fb15643a562293"
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-    to="+46769140194",
-    from_="+46765193294",
+    to="+xxxxxxxxxxx",
+    from_="+xxxxxxxxxxx",
     body="Good luck at the embassy! Please come back to look at my code in the afternoon. This is an automated message.")
 
 print(message.sid)
